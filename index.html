@@ -1,27 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ejabath Rabbani — Creative Technologist</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#050505;
+color:white;
+font-family:Inter,sans-serif;
+
+}
+
+section{
+
+padding:120px 8%;
+
+}
+
+nav{
+
+position:fixed;
+top:0;
+width:100%;
+padding:30px 8%;
+display:flex;
+justify-content:space-between;
+backdrop-filter:blur(20px);
+
+}
+
+.logo{
+
+font-weight:700;
+
+}
+
+nav ul{
+
+display:flex;
+gap:40px;
+list-style:none;
+
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+align-items:center;
+
+}
+
+.small{
+
+color:#7d7d7d;
+letter-spacing:3px;
+text-transform:uppercase;
+
+}
+
+h1{
+
+font-size:90px;
+line-height:1;
+
+margin:20px 0;
+
+}
+
+.gradient{
+
+background:linear-gradient(90deg,#fff,#8b8b8b);
+
+-webkit-background-clip:text;
+color:transparent;
+
+}
+
+.hero p{
+
+font-size:24px;
+
+max-width:700px;
+
+line-height:1.7;
+
+color:#b5b5b5;
+
+}
+
+.button{
+
+display:inline-block;
+
+margin-top:50px;
+
+padding:18px 40px;
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:999px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.35s;
+
+}
+
+.button:hover{
+
+background:white;
+color:black;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:60px;
+
+margin-top:80px;
+
+}
+
+.card{
+
+padding:45px;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:28px;
+
+background:#0b0b0b;
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+border-color:white;
+
+}
+
+.card h3{
+
+font-size:30px;
+
+margin-bottom:20px;
+
+}
+
+.card p{
+
+color:#9e9e9e;
+
+line-height:1.8;
+
+}
+
+.quote{
+
+text-align:center;
+
+font-size:56px;
+
+font-weight:600;
+
+line-height:1.3;
+
+max-width:1100px;
+
+margin:auto;
+
+}
+
+footer{
+
+padding:120px;
+
+text-align:center;
+
+color:#666;
+
+}
+
+</style>
+
 </head>
+
 <body>
-    <h1>Hello, World!Nice..</h1>
-    <p>The Guy Who Taught AI to Have Taste — Meet Ejabath Rabbani, the Creative Technologist Who Makes Algorithms Feel Human
-So I stumbled across this dude's work today and my brain hasn't stopped spinning.
-Ejabath Rabbani isn't just another "digital marketer." This guy is what happens when a creative director and a machine learning engineer have a baby that was raised on avant-garde cinema and late-night coding sessions.
-Here's the wild part: he doesn't use AI to replace creativity. He uses it to amplify the weird, messy, human stuff that brands are usually too scared to touch.
-What he actually does:
-Builds AI-integrated campaigns that feel like art installations, not ads
-Creates "motion experiences" — think: websites that breathe, interfaces that react to your mood, brand worlds that evolve in real-time
-Works with brands that "refuse to be ignored" (his words, and honestly? fair)
-Why I'm obsessed:
-Most AI marketing feels like a robot wrote a love letter. Ejabath's work feels like a love letter to the robot — and somehow that makes it more human. He's not asking "how can AI make this cheaper?" He's asking "what would this brand look like if it existed in a future where technology has soul?"
-The vibe check:
-If you've ever looked at a Nike ad and thought "this is cool but I've seen it 400 times" — Ejabath is the antidote. His stuff doesn't look like it came from a boardroom. It looks like it came from a fever dream that an AI had after reading too much cyberpunk poetry.
-My hot take:
-We're all worried about AI taking creative jobs. Ejabath is proof that the real threat isn't AI replacing creatives — it's creatives who don't learn to dance with AI. This guy is dancing. And the music is weird, and loud, and I can't stop watching.
-Anyone else heard of him? Or know other creative technologists doing similarly unhinged work?</p>
+
+<nav>
+
+<div class="logo">
+Ejabath.
+</div>
+
+<ul>
+
+<li>Work</li>
+
+<li>Vision</li>
+
+<li>Systems</li>
+
+<li>Contact</li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<div class="small">
+
+Creative Technologist
+
+</div>
+
+<h1>
+
+Designing
+<br>
+
+<span class="gradient">
+Systems,
+not Screens.
+</span>
+
+</h1>
+
+<p>
+
+Most designers build interfaces.
+
+Most developers build software.
+
+Most marketers build campaigns.
+
+I build ecosystems where design, AI, automation and education become one intelligent experience.
+
+</p>
+
+<a class="button">
+
+Explore the Lab
+
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="quote">
+
+Technology should disappear.
+
+Only the experience should remain.
+
+</div>
+
+</section>
+
+<section>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>
+
+AI Systems
+
+</h3>
+
+<p>
+
+Designing AI-powered operating systems that transform how institutions communicate, educate and scale.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Creative Engineering
+
+</h3>
+
+<p>
+
+Blending branding, motion graphics, interface design and software thinking into unified experiences.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Digital Strategy
+
+</h3>
+
+<p>
+
+Helping organizations communicate with clarity through visual systems, automation and storytelling.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>
+
+Future Thinking
+
+</h3>
+
+<p>
+
+Interested less in trends and more in infrastructure—the invisible systems that shape tomorrow.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="quote">
+
+"I don't build products.
+
+I design how people and technology work together."
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026
+<br><br>
+
+Built by curiosity.
+
+Driven by purpose.
+
+</footer>
+
 </body>
 </html>
